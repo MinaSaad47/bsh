@@ -22,6 +22,7 @@ all: default
 
 $(TARGET): $(OBJ)
 	@ printf "Linking:  %s\n" $^
+	@ mkdir bin -p
 	@ $(CC) $^ -Wall $(LIBS) -o $@ 
 
 run: $(TARGET)
@@ -32,7 +33,7 @@ run: $(TARGET)
 clean:
 	@ printf "Cleaing %s\n" $(TARGET)
 	@ printf "Cleaing %s\n" $(OBJ)
-	@ rm -f $(TARGET) $(OBJ)
+	@ rm -rf $(TARGET) $(OBJ)
 	@ printf "Cleaned!\n"
 
 
