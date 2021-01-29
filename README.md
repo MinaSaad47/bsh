@@ -1,7 +1,7 @@
 # bsh
 ## A basic shell written in C
 
-### TO build
+### To build
 ```
 make
 ```
