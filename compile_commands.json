@@ -1,0 +1,50 @@
+[
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Wall",
+            "-g",
+            "-I./include",
+            "src/exec.c"
+        ],
+        "directory": "/home/lm47/Documents/bsh",
+        "file": "src/exec.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Wall",
+            "-g",
+            "-I./include",
+            "src/cmd.c"
+        ],
+        "directory": "/home/lm47/Documents/bsh",
+        "file": "src/cmd.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Wall",
+            "-g",
+            "-I./include",
+            "src/bsh.c"
+        ],
+        "directory": "/home/lm47/Documents/bsh",
+        "file": "src/bsh.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Wall",
+            "-g",
+            "-I./include",
+            "src/args.c"
+        ],
+        "directory": "/home/lm47/Documents/bsh",
+        "file": "src/args.c"
+    }
+]
