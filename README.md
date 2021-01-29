@@ -11,4 +11,4 @@ make
 ```
 
 
-#### Disclamer: This is unfinished project. You will see alot of error
+#### Disclamer: This is unfinished project. You will see alot of errors.
