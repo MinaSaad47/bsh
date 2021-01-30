@@ -1,5 +1,7 @@
-#include "args.h"
 #include <stdlib.h>
+
+#include "args.h"
+#include "config.h"
 
 
 void

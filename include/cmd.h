@@ -1,10 +1,13 @@
 #ifndef __CMD_H_
 #define __CMD_H_
 
+#include "config.h"
+
 #include <stdlib.h>
 #include <unistd.h>
 #include <stdio.h>
 #include <string.h>
+
 #include "log.h"
 
 

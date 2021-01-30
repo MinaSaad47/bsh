@@ -1,8 +1,4 @@
 #include "exec.h"
-#include <string.h>
-#include <sys/wait.h>
-#include <unistd.h>
-
 
 
 
@@ -14,7 +10,7 @@ execute(char *cmd, ssize_t len)
         pid_t pid = fork();
         if (pid == 0) {
                 if (execvp(args[0], args) == -1) {
-                        LOG(strerror(errno));
+                        die(AT "Unknown Command: %s", args[0]);
                 }
         }
         for (int i = 0; i < size; i++) {

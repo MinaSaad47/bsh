@@ -1,9 +1,10 @@
+#include "config.h"
+
+#include <unistd.h>
 #include "args.h"
 #include "cmd.h"
 #include "exec.h"
-#include <unistd.h>
-
-
+#include "log.h"
 
 int 
 main(int argc, char **argv, char **envp)

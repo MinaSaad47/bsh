@@ -1,10 +1,14 @@
 #ifndef __EXEC_H__
 #define __EXEC_H__
+
+#include "config.h"
+
 #include <string.h>
 #include <unistd.h>
 #include <stdlib.h>
-
-#define _LOG_ 1
+#include <string.h>
+#include <sys/wait.h>
+#include <unistd.h>
 
 #include "log.h"
 
